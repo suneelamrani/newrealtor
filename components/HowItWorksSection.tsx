@@ -31,8 +31,10 @@ export default function HowItWorksSection() {
           </p>
         </div>
 
-        <div className="w-full flex flex-col sm:flex-row items-start justify-between gap-4 lg:gap-6 relative">
-          <div className="flex-1 flex flex-col items-start gap-2 sm:gap-4 w-full">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-3 items-start gap-6 relative">
+
+          {/* Step 01 */}
+          <div className="flex flex-col items-start gap-2 sm:gap-4 w-full">
             <div className="flex items-center gap-4">
               <h1 className="w-16 h-16 rounded-full bg-[#67CCFD] flex items-center justify-center text-3xl rotate-3 font-extrabold text-black shrink-0">
                 01
@@ -57,13 +59,7 @@ export default function HowItWorksSection() {
             </div>
           </div>
 
-          <div className="hidden md:flex items-center justify-center mt-6 shrink-0 px-2">
-            <svg width="30" height="16" viewBox="0 0 30 16" fill="none" stroke="#222" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M0 8 L24 8 M18 2 L26 8 L18 14" />
-            </svg>
-          </div>
-
-          <div className="flex-1 flex flex-col items-start gap-4 w-full">
+          <div className="flex flex-col items-start gap-4 w-full">
             <div className="flex items-center gap-4">
               <h1 className="w-16 h-16 rounded-full bg-[#F969C0] flex items-center justify-center text-3xl rotate-3 font-extrabold text-black shrink-0">
                 02
@@ -89,13 +85,7 @@ export default function HowItWorksSection() {
             </div>
           </div>
 
-          <div className="hidden md:flex items-center justify-center mt-6 shrink-0 px-2">
-            <svg width="30" height="16" viewBox="0 0 30 16" fill="none" stroke="#222" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M0 8 L24 8 M18 2 L26 8 L18 14" />
-            </svg>
-          </div>
-
-          <div className="flex-1 flex flex-col items-start gap-4 w-full">
+          <div className="flex flex-col items-start gap-4 w-full">
             <div className="flex items-center gap-4">
               <h1 className="w-16 h-16 rounded-full bg-[#95F4BE] flex items-center justify-center text-3xl rotate-3 font-extrabold text-black shrink-0">
                 03
@@ -118,6 +108,18 @@ export default function HowItWorksSection() {
                 Choose who you want to work with. Message, meet, and go from there!
               </p>
             </div>
+          </div>
+
+          <div className="hidden md:flex items-center justify-center mt-6 shrink-0 px-2  absolute left-[24%]">
+            <svg width="30" height="16" viewBox="0 0 30 16" fill="none" stroke="#222" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M0 8 L24 8 M18 2 L26 8 L18 14" />
+            </svg>
+          </div>
+
+          <div className="hidden md:flex items-center justify-center mt-6 shrink-0 px-2 absolute right-[33%] lg:right-[37%]">
+            <svg width="30" height="16" viewBox="0 0 30 16" fill="none" stroke="#222" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M0 8 L24 8 M18 2 L26 8 L18 14" />
+            </svg>
           </div>
 
         </div>
