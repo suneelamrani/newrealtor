@@ -10,7 +10,7 @@ export default function Hero() {
           src="/assets/hero-bg.png"
           alt="Dog with For Sale Sign"
           fill
-          className="object-cover object-[center_right] md:object-center"
+          className="object-cover object-[center_right] lg:object-bottom"
           priority
         />
         {/* White blur / fade shadow on the left side behind text */}
@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
 
       {/* Main Content Container with Max Width 7xl and No Left Padding */}
-      <div className="relative z-10 px-4 md:px-6 lg:px-8 py-6 md:py-8">
+      <div className="relative z-10 px-4 md:px-6 lg:px-8 py-6 md:py-16">
 
         <div className="max-w-7xl mx-auto w-full flex flex-col justify-center">
           {/* Main Heading with Highlight Boxes */}
@@ -59,7 +59,7 @@ export default function Hero() {
           </div>
 
           {/* Features / Checkmarks Grid */}
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-3 gap-x-2 z-20">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-3 gap-x-2 z-20 max-w-[350px] lg:max-w-[550px] w-full">
             {[
               "Highly motivated", "Responsive", "Local",
               "Tech-savvy", "Personalized", "Dedicated"
